@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chs.qrcodelibrary" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application>
+        <activity android:name="com.dtr.zxing.activity.ResultActivity" />
+        <activity android:name="com.dtr.zxing.activity.CaptureActivity" />
+    </application>
+</manifest>
